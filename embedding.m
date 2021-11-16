@@ -10,9 +10,7 @@ figure(2);imshow(ca2);title('ca2 image');
 
 W = imread('watermark.png');
 W = im2double(W);
-W = rgb2gray(W);
 W = 255*W;
-W=imcomplement(W);
 
 figure(3); imshow(W);
 title('watermark image');
