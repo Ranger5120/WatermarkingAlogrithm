@@ -26,6 +26,7 @@ ca2new = idwt2(ca3new, ch3, cv3, cd3,'haar');
 ca1new = idwt2(ca2new, ch2, cv2, cd2, 'haar');
 Inew=idwt2(ca1new, ch1, cv1, cd1, 'haar');
 figure(4); imshow(Inew);
+
 title('watermarked-image');
 
 
